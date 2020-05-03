@@ -1,0 +1,27 @@
+.banner-interloc{
+    background-color: rgba(0,0,0,0.5);
+    height: 30vh;
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-interloc p{
+    color:#fff;
+    font-size: 35px;
+    font-family: 'Quicksand' ;
+    font-weight: bold;
+    width: 80%;
+}
+
+@media screen and (max-width: 600px){
+    .banner-interloc p{
+        display:none;
+    }
+
+    .banner-interloc{
+        display:none;
+    }
+}

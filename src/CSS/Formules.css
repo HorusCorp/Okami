@@ -1,0 +1,242 @@
+.formule-zone{
+    height: auto;
+}
+
+.formules-title{
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.formules-title span{
+    color: #fff;
+    font-family: 'Quicksand' ;
+    font-size: 35px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+}
+
+.devis-gratuits{
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px 270px;
+    font-family: 'Quicksand';
+    font-size: 35px;
+    margin-top: -30px;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.formules-title h2{
+    font-size: 55px;
+    margin-bottom: 35px;
+    letter-spacing: 4px;
+}
+.separator-orange{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    width: 50%;
+    height: 3px;
+    background-color: #333;
+    margin-bottom: 35px;
+    margin-top:15px
+}
+
+.separator-orange-title{
+    width: 50px;
+    height: 7px;
+    background-color: #fff;
+    margin-bottom: -5px;
+    margin-top:35px
+}
+
+.formules-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    height: auto;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 100px;
+}
+
+.formules-cards p{
+    font-family: 'Quicksand' ;
+    margin: 12px 0;
+    text-align: left;
+}
+
+
+
+.formule-card-1 .p,.formule-card-2 .p,.formule-card-4 .p{
+    display: none;
+}
+
+.formule-card-1:target .p,.formule-card-2:target .p,.formule-card-4:target .p{
+    display: block;
+}
+
+.formule-card-1, .formule-card-2, .formule-card-4{ 
+    height: auto!important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.arrow-down-zone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-down{
+    height: auto;
+    background-color: #333333;
+    padding: 2px 20px;
+    border-radius:15px;
+    color: white;
+    border: 2px solid #333; 
+}
+
+.arrow-down:hover{
+    background-color: white;
+    color: #0F0F0F;
+    border: 2px solid #333;
+}
+
+.formule-card-1 a,.formule-card-2 a,.formule-card-4 a{
+    text-decoration: none;
+    color: #000;
+    height: 356px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: #e8eff5; */
+    background-color: #fff;
+}
+
+
+
+.formule-card-4 a{
+    height: auto;
+}
+
+.formule-card-4 .separator-orange{
+    margin-top: 28px;
+}
+
+.formule-card-4  .arrow-down{
+    margin-top: 15px;
+}
+
+.formule-card-1,.formule-card-2,.formule-card-4{
+    width: 280px;
+    height: 800px;
+    /* background-color: #e8eff5; */
+    background-color: #fff;
+    padding: 30px 0px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+.remonte{
+    margin-top: 0px!important;
+    font-family: 'Quicksand' ;
+    font-size: 25px;
+    color: white;
+}
+
+.descend{
+    margin-left: 0;
+    width: 5%;
+}
+
+.descend2{
+    margin-left:0;
+    width: 5%;
+    margin-bottom: 7%;
+}
+
+.formule-card-1 h3,.formule-card-4 h3,.formule-card-2 h3,.formule-card-3 h3{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.one-point{
+    width: 100%;
+    display: flex;
+}
+
+.one-point-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.icon-plus{
+    display:flex;
+    align-items: center;
+    margin-right: 5px;
+}
+.p-intro{
+    text-align: center!important;
+    margin-bottom: 30px!important;
+    padding: 0px 10px;
+}
+
+.p{
+    padding: 0px 10px;
+}
+
+.sup{
+    font-family: 'Quicksand' ;
+    font-size: 25px;
+}
+
+
+/*MOBILE RESPONSIVE*/
+
+@media screen and (max-width: 600px){
+    .formules-title h2{
+        font-size: 29px;
+        margin-bottom:35px;
+    }
+    .formules-title span{
+        font-size:20px;
+    }
+
+    .devis-gratuits{
+        font-size: 25px!important;
+        padding: 15px 150px;
+    }
+    .formules-cards{
+        flex-direction: column;
+        width: 100%;
+        margin:0 0;
+        align-items: center;
+    }
+    .formule-card-1, .formule-card-2, .formule-card-4{
+        margin-bottom: 15px;
+    }
+    .formule-card-1, .formule-card-2,.formule-card-4{
+        width: 350px;
+    }
+
+    .formule-card-1{
+        height: 600px;
+    }
+
+    .formule-card-2{
+        height: 700px;
+    }
+    .formule-card-4{
+        height: 520px;
+    }
+
+}

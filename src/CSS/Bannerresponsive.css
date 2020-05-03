@@ -1,0 +1,30 @@
+.responsive-banner{
+    height: 60vh;
+}
+
+.dark-zone-img{
+    background-color: #333;
+    width: 100%;
+    height: 50vh;
+    color: white;
+}
+
+.dark-banner-text p{
+    font-family: 'Quicksand' ;
+    font-size: 25px;
+    padding-top: 25px;
+    margin-bottom: -20px;
+}
+
+.dark-banner-text h3{
+    font-size: 35px;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width: 600px){
+    .dark-zone-img img{
+        width: 90%;
+        height: 300px;
+        margin-top: -50px;
+    }
+}

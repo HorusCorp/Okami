@@ -1,0 +1,39 @@
+.banner-asso{
+    background-color: rgba(0,0,0,0.5);
+    width: 90%;
+    margin-left: 5%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-asso p{
+    color:white;
+    font-size: 35px;
+    font-family: 'Quicksand' ;
+    font-weight: bold;
+    width: 80%;
+    
+}
+
+/*LAPTOP RESPONSIVE*/
+
+@media screen and (max-width: 1450px) {
+    .banner-asso p{
+        font-size: 35px;
+    }
+}
+
+
+/*MOBILE RESPONSIVE*/
+
+@media screen and (max-width: 600px){
+    .banner-asso p{
+        font-size: 18px;
+        width: 80%;
+    }
+    .banner-asso{
+        height: 20vh;
+    }
+}

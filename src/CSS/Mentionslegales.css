@@ -1,0 +1,22 @@
+.warning-txt{
+    margin-left: 10%;
+    margin-bottom: 2%;
+    width: 80%;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 15px;
+    background-color: white;
+}
+
+.warning-txt p,.warning-txt h3{
+    text-align: left;
+    font-family: 'Quicksand'
+}
+
+.warning-txt h2{
+    margin-top: 155px!important;
+    font-family: 'Quicksand'
+}
